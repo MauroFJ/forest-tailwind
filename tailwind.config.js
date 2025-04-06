@@ -2,7 +2,16 @@
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: '2rem',
+    },
+    extend: {
+      colors: {
+        'verde-body': '#16281F',
+        'verde-escuro': '#0F1C15',
+      },
+    },
   },
   plugins: [],
 };
