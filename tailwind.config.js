@@ -4,12 +4,22 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '2rem',
+      padding: {
+        DEFAULT: '2rem',
+        sm: '1rem',
+        lg: '6rem',
+      },
     },
     extend: {
       colors: {
         'verde-body': '#16281F',
         'verde-escuro': '#0F1C15',
+        'verde-claro': '#91EE77',
+        branco: '#fff',
+        preto: '#000',
+      },
+      fontSize: {
+        xs: '12px',
       },
     },
   },

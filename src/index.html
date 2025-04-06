@@ -9,21 +9,41 @@
 </head>
 
 <body class="bg-verde-body">
-  <div class="container">
-    <ul class="flex gap-4 justify-start mt-2 relative *:bg-verde-escuro ">
-      <li>Sabádo</li>
+  <div class="container mt-4">
+    <ul class="flex divide-x-2 divide-verde-body justify-start mt-2 relative *:bg-verde-escuro *:text-verde-claro *:text-sm *:tracking-tight *:font-mono *:px-4 *:py-2">
+      <li class="rounded-[8px_0px_0px_8px]">Sábado</li>
       <li>28°</li>
-      <li>🌤️</li>
+      <li class="rounded-[0px_8px_8px_0px]">🌤️</li>
     </ul>
-    <nav>
-      <img src="" alt="">
-      <ul>
-        <li>Acomodações</li>
-        <li>Eventos</li>
-        <li>Experiências</li>
-        <li>Contato</li>
+    <nav class="flex justify-between items-center">
+      <div><img src="./img/forest.svg" alt="" class="py-8"></div>
+      <ul class="flex gap-4 *:capitalize *:text-branco *:font-medium text-lg">
+        <li><a class="hover:border-b" href="/">acomodações</a></li>
+        <li><a class="hover:border-b" href="/">eventos</a></li>
+        <li><a class="hover:border-b" href="/">experiências</a></li>
+        <li><a class="hover:border-b" href="/">contato</a></li>
       </ul>
     </nav>
+    <div class="relative">
+
+      <img src=" ./img/floresta.jpg" alt="" class="rounded-md">
+      <div>
+        <div class="absolute top-[50%]">
+          <span class="bg-preto py-4 pl-6 pr-2 text-sm text-branco ml-7 font-medium rounded-full">Vagas para dezembro abertas
+            <button class="bg-gradient-to-b from-[#98FF6E] to-[#00FF7E] text-preto text-sm font-normal capitalize rounded-full py-[10px] px-8 ml-10 hover:shadow-2xl">reservar hoje</button></span>
+          <h1 class="text-5xl max-w-[450px] ml-7 mt-7 text-branco font-semibold">Venha Experimentar a vida na Floresta</h1>
+        </div>
+      </div>
+      <p class=" absolute bottom-6 ml-7 text-branco">Melhores locais para visitar em <a href="/" class="font-medium border-b-2 hover:border-none">2049</a>
+      </p>
+      <div class="absolute right-0 bottom-6 *:text-branco mr-4">
+        <p class="px-3 mb-2 uppercase text-sm font-medium">recomendado por</p>
+        <div class="flex divide-x-2 *:px-3">
+          <img class="w-32" src="./img/parceiros/wildbeast.svg" alt="">
+          <p class="text-sm">Revista Nacional</p>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
