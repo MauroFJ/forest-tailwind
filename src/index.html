@@ -24,13 +24,13 @@
         <li><a class="hover:border-b" href="/">contato</a></li>
       </ul>
     </nav>
-    <div class="relative">
+    <section id="main" class="relative">
 
       <img src=" ./img/floresta.jpg" alt="" class="rounded-md">
       <div>
         <div class="absolute top-[50%]">
           <span class="bg-preto py-4 pl-6 pr-2 text-sm text-branco ml-7 font-medium rounded-full">Vagas para dezembro abertas
-            <button class="bg-gradient-to-b from-[#98FF6E] to-[#00FF7E] hover:bg-gradient-to-b hover:from-[#000] hover:to-[#fff] text-preto text-sm font-normal capitalize rounded-full py-[10px] px-8 ml-10 hover:shadow-2xl">reservar hoje</button></span>
+            <button class="bg-gradient-to-b from-verde-claro to-verde hover:bg-gradient-to-b hover:from-verde-claro2 hover:to-verde text-gray-900 hover:text-preto text-sm font-normal capitalize rounded-full py-[10px] px-8 ml-10 hover:shadow-2xl">reservar hoje</button></span>
           <h1 class="text-5xl max-w-[450px] ml-7 mt-7 text-branco font-semibold">Venha Experimentar a vida na Floresta</h1>
         </div>
       </div>
@@ -43,11 +43,35 @@
           <p class="text-sm">Revista Nacional</p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div>
-      <img src="img/casa1.jpg" alt=""><img src="img/casa2.jpg" alt=""><img src="img/casa3.jpg" alt="">
-    </div>
+    <section id="acomodacoes" class="grid grid-cols-[2fr_3fr] pt-16">
+      <div class="content-end bg-[url('./img/padrao.svg')] bg-no-repeat bg-contain bg-left-bottom">
+        <h2 class="text-white text-5xl mb-8 font-serif">Refúgio Natural</h2>
+        <ul class="text-gray-200 *:flex *:items-center *:gap-4 space-y-4 *:text-lg *:font-semibold">
+          <li><span class="w-6 h-0.5 inline-block bg-verde-claro"></span> Experimente a natureza de perto</li>
+          <li><span class="w-6 h-0.5 inline-block bg-verde-claro"></span> Conecte-se com a natureza</li>
+          <li><span class="w-6 h-0.5 inline-block bg-verde-claro"></span> Desconecte-se do digital</li>
+          <li><span class="w-6 h-0.5 inline-block bg-verde-claro"></span> Observe a vida selvagem</li>
+          <li><span class="w-6 h-0.5 inline-block bg-verde-claro"></span> Escolha sua cabine preferida</li>
+        </ul>
+      </div>
+      <div class="grid grid-cols-[2fr_1fr] gap-8 *:relative">
+
+        <div class="col-span-full">
+          <img class="h-52 w-full object-cover rounded-lg" src="img/casa1.jpg" alt="">
+          <span class="absolute top-0 right-0 text-sm text-white bg-preto/60 py-2 px-4 m-2 rounded-full">RUBY</span>
+        </div>
+        <div>
+          <img class="size-full object-cover rounded-lg" src="img/casa2.jpg" alt="">
+          <span class="absolute top-0 right-0 text-sm text-white bg-preto/60 py-2 px-4 m-2 rounded-full">EMERALD</span>
+        </div>
+        <div>
+          <img class="size-full object-cover rounded-lg" src="img/casa3.jpg" alt="">
+          <span class="absolute top-0 right-0 text-sm text-white bg-preto/60 py-2 px-4 m-2 rounded-full">SAPHIRE</span>
+        </div>
+      </div>
+    </section>
   </div>
 </body>
 
