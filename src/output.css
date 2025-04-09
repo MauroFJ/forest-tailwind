@@ -771,8 +771,16 @@ video {
   border-color: rgb(22 40 31 / var(--tw-divide-opacity, 1));
 }
 
+.self-center {
+  align-self: center;
+}
+
 .justify-self-start {
   justify-self: start;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 .text-balance {
