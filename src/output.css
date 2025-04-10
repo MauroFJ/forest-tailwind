@@ -620,8 +620,16 @@ video {
   grid-column: 1 / -1;
 }
 
+.col-start-2 {
+  grid-column-start: 2;
+}
+
 .row-span-full {
   grid-row: 1 / -1;
+}
+
+.row-span-2 {
+  grid-row: span 2 / span 2;
 }
 
 .m-2 {
@@ -679,6 +687,14 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
+}
+
+.mb-96 {
+  margin-bottom: 24rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .inline-block {
@@ -849,6 +865,16 @@ video {
 .bg-verde-escuro {
   --tw-bg-opacity: 1;
   background-color: rgb(15 28 21 / var(--tw-bg-opacity, 1));
+}
+
+.bg-sky-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 165 233 / var(--tw-bg-opacity, 1));
+}
+
+.bg-verde-body {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 40 31 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'\.\/img\/padrao\.svg\'\)\] {
