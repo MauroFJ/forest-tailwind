@@ -8,7 +8,7 @@
   <title>Forest</title>
 </head>
 
-<body class="bg-verde-body">
+<body>
   <div class="container mt-4">
     <ul class="flex divide-x-2 divide-verde-body justify-start mt-2 relative *:bg-verde-escuro *:text-verde-claro *:text-sm *:tracking-tight *:font-mono *:px-4 *:py-2">
       <li class="rounded-[8px_0px_0px_8px]">Sábado</li>
@@ -75,7 +75,7 @@
     </div>
   </section>
 
-  <section id="reservas" class="pt-16 bg-verde-escuro mt-16">
+  <section id="reservas" class="pt-16 bg-verde-escuro mt-16 mb-16">
     <div class="flex items-center justify-center flex-col">
       <p class="uppercase text-verde-claro2 tracking-wider font-semibold text-sm">Conecte-se com a natureza</p>
       <h2 class="text-branco capitalize font-semibold font-serif text-6xl max-w-screen-lg text-center text-balance p-8">cada som, cada momento, uma nova descoberta</h2>
@@ -109,31 +109,38 @@
     </div>
   </section>
 
-  <section id="experiencias" class="container">
-    <div class="grid grid-cols-[3fr_2fr] *:text-branco">
-      <div>
-        <p>Experiências exclusivas</p>
-        <h2>escolha sua próxima aventura</h2>
-        <div>
-          <span></span>
-          <h3>Observação Noturna</h3>
-          <p>Explore a vida selvagem em seu habitat natural sob as estrelas.</p>
+  <section id="experiencias" class="container mt-20">
+    <div class="grid grid-cols-[2fr_2fr] gap-8">
+      <div class="bg-verde-escuro p-8 rounded-lg">
+        <p class="text-verde-claro2 uppercase mb-4">Experiências exclusivas</p>
+        <h2 class="text-5xl text-branco capitalize font-semibold font-serif text-balance mb-4">escolha sua próxima aventura</h2>
+        <div class="*:flex *:items-center *:gap-4">
+          <h3 class="text-branco text-xl font-semibold">
+            <span class="h-0.5 w-6 bg-verde-claro2 items-center inline-block"></span>
+            Observação Noturna
+          </h3>
+          <p class="text-gray-400 pl-10 mb-8 text-balance">Explore a vida selvagem em seu habitat natural sob as estrelas.</p>
         </div>
-        <div>
-          <span></span>
-          <h3>Vida Selvagem</h3>
-          <p>Observe a vida selvagem em seu habitat natural.</p>
+        <div class="*:flex *:items-center *:gap-4">
+          <h3 class="text-branco text-xl font-semibold">
+            <span class="h-0.5 w-6 bg-verde-claro2 items-center inline-block"></span>
+            Vida Selvagem
+          </h3>
+          <p class="text-gray-400 pl-10 mb-8 text-balance">Observe a vida selvagem em seu habitat natural.</p>
         </div>
-        <div>
-          <span></span>
-          <h3>Canoagem</h3>
-          <p>Conquiste novos horizontes com nossa equipe especializada.</p>
+        <div class="*:flex *:items-center *:gap-4">
+          <h3 class="text-branco text-xl font-semibold">
+            <span class="h-0.5 w-6 bg-verde-claro2 items-center inline-block"></span>
+            Canoagem
+          </h3>
+          <p class="text-gray-400 pl-10 mb-8 text-balance">Conquiste novos horizontes com nossa equipe especializada.</p>
         </div>
       </div>
-      <div>
+      <div class="grid grid-cols-2 gap-4 *:*:rounded-lg">
         <div><img src="img/canoagem.jpg" alt=""></div>
+        <div class="row-span-full"><img src="img/observacao-noturna.jpg" alt=""></div>
         <div><img src="img/vida-selvagem.jpg" alt=""></div>
-        <div><img src="img/observacao-noturna.jpg" alt=""></div>
+
       </div>
     </div>
   </section>

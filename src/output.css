@@ -620,6 +620,10 @@ video {
   grid-column: 1 / -1;
 }
 
+.row-span-full {
+  grid-row: 1 / -1;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -629,13 +633,16 @@ video {
   margin-bottom: 2rem;
 }
 
-.my-16 {
-  margin-top: 4rem;
+.mb-16 {
   margin-bottom: 4rem;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-8 {
@@ -672,10 +679,6 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .inline-block {
@@ -723,16 +726,20 @@ video {
   max-width: 1024px;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .grid-cols-\[2fr_1fr\] {
   grid-template-columns: 2fr 1fr;
 }
 
-.grid-cols-\[2fr_3fr\] {
-  grid-template-columns: 2fr 3fr;
+.grid-cols-\[2fr_2fr\] {
+  grid-template-columns: 2fr 2fr;
 }
 
-.grid-cols-\[3fr_2fr\] {
-  grid-template-columns: 3fr 2fr;
+.grid-cols-\[2fr_3fr\] {
+  grid-template-columns: 2fr 3fr;
 }
 
 .flex-col {
@@ -829,14 +836,14 @@ video {
   background-color: rgb(3 5 4 / 0.6);
 }
 
-.bg-verde-body {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 40 31 / var(--tw-bg-opacity, 1));
-}
-
 .bg-verde-claro {
   --tw-bg-opacity: 1;
   background-color: rgb(145 238 119 / var(--tw-bg-opacity, 1));
+}
+
+.bg-verde-claro2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(172 239 117 / var(--tw-bg-opacity, 1));
 }
 
 .bg-verde-escuro {
@@ -913,6 +920,10 @@ video {
   padding-bottom: 10px;
 }
 
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
 .pl-6 {
   padding-left: 1.5rem;
 }
@@ -923,10 +934,6 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .text-center {
@@ -960,6 +967,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-medium {
@@ -1001,6 +1013,11 @@ video {
   color: rgb(209 213 219 / var(--tw-text-opacity, 1));
 }
 
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
@@ -1035,6 +1052,10 @@ video {
 
 .\*\:gap-4 > * {
   gap: 1rem;
+}
+
+.\*\:\*\:rounded-lg > * > * {
+  border-radius: 0.5rem;
 }
 
 .\*\:rounded-lg > * {
