@@ -1561,6 +1561,10 @@ video {
     grid-template-columns: 2fr 3fr;
   }
 
+  .sm\:grid-cols-\[2fr_2fr\] {
+    grid-template-columns: 2fr 2fr;
+  }
+
   .sm\:justify-start {
     justify-content: flex-start;
   }
