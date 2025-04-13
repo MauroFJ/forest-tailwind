@@ -798,6 +798,10 @@ video {
   gap: 2rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -819,6 +823,11 @@ video {
 .divide-verde-body > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(22 40 31 / var(--tw-divide-opacity, 1));
+}
+
+.divide-verde-escuro > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(15 28 21 / var(--tw-divide-opacity, 1));
 }
 
 .place-self-start {
@@ -1007,6 +1016,11 @@ video {
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pb-20 {
@@ -1217,6 +1231,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.\*\:py-8 > * {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .\*\:font-mono > * {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -1349,6 +1368,10 @@ video {
     margin-top: 0.5rem;
   }
 
+  .max-sm\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .max-sm\:block {
     display: block;
   }
@@ -1365,12 +1388,27 @@ video {
     flex-direction: column;
   }
 
+  .max-sm\:items-center {
+    align-items: center;
+  }
+
   .max-sm\:gap-10 {
     gap: 2.5rem;
   }
 
+  .max-sm\:divide-y-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-y-reverse: 0;
+    border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
+  }
+
   .max-sm\:text-xs {
     font-size: 12px;
+  }
+
+  .max-sm\:\*\:py-8 > * {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -1432,12 +1470,30 @@ video {
     justify-content: flex-start;
   }
 
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
   .sm\:gap-8 {
     gap: 2rem;
   }
 
+  .sm\:gap-16 {
+    gap: 4rem;
+  }
+
   .sm\:rounded-full {
     border-radius: 9999px;
+  }
+
+  .sm\:border-y-2 {
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+  }
+
+  .sm\:border-verde-escuro {
+    --tw-border-opacity: 1;
+    border-color: rgb(15 28 21 / var(--tw-border-opacity, 1));
   }
 
   .sm\:bg-preto {
@@ -1445,9 +1501,18 @@ video {
     background-color: rgb(3 5 4 / var(--tw-bg-opacity, 1));
   }
 
+  .sm\:bg-center {
+    background-position: center;
+  }
+
   .sm\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .sm\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .sm\:pl-6 {
