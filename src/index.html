@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -15,20 +15,43 @@
       <li>28°</li>
       <li class="rounded-[0px_8px_8px_0px]">🌤️</li>
     </ul>
-    <nav class="flex justify-between items-center">
-      <div><a href="/"><img src="./img/forest.svg" alt="" class="my-8"></a></div>
-      <ul class="flex gap-4 *:capitalize *:text-branco *:font-medium text-lg">
-        <li><a class="hover:border-b" href="#acomodacoes">acomodações</a></li>
-        <li><a class="hover:border-b" href="#reservas">eventos</a></li>
-        <li><a class="hover:border-b" href="#experiencias">experiências</a></li>
-        <li><a class="hover:border-b" href="#contato">contato</a></li>
-      </ul>
-    </nav>
+    <header class="container flex items-center justify-between gap-8 py-8">
+      <a href="./">
+        <img src="./img/forest.svg" alt="Forest" />
+      </a>
+      <nav id="mobile-menu" class="lg:block hidden items-center z-40 max-lg:fixed max-lg:w-full max-lg:inset-0">
+        <div class="fixed lg:hidden inset-0 bg-verde-escuro/40 backdrop-blur-md"></div>
+        <ul class="text-white text-2xl max-lg:divide-y-2 max-lg:divide-white/10 max-lg:z-50 max-lg:absolute max-lg:p-8 max-lg:w-full lg:text-xl lg:flex lg:flex-wrap lg:gap-8">
+          <li>
+            <a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8" href="#acomodacoes">Acomodações</a>
+          </li>
+          <li>
+            <a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8" href="#eventos">Eventos</a>
+          </li>
+          <li>
+            <a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8" href="#experiencias">Experiências</a>
+          </li>
+          <li>
+            <a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline lg:hover:underline-offset-8" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button id="mobile-button" class="flex items-center gap-3 bg-gradient-to-b from-verde-claro2 to-verde text-verde-escuro py-2 px-4 rounded-full lg:hidden">
+        Menu
+        <span class="h-3 w-4 flex flex-col justify-between *:h-0.5 *:rounded-md *:bg-verde-escuro">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+    </header>
   </div>
 
   <section id="main" class="container relative">
 
-    <img src=" ./img/floresta.jpg" alt="" class="rounded-md min-h-20 min-w-20">
+    <!-- <img src=" ./img/floresta.jpg" alt="" class="rounded-md"> -->
+    <video src="img/video_chuva.mp4" autoplay muted loop></video>
     <div>
       <div class="absolute top-[20%] sm:top-[50%]">
         <span class=" sm:bg-preto sm:py-4 sm:pl-6 pr-2 text-xs sm:text-sm text-branco sm:ml-7 font-medium rounded-md sm:rounded-full">Vagas para dezembro abertas
