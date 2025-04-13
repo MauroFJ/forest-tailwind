@@ -1006,6 +1006,11 @@ video {
   background-color: rgb(3 5 4 / 0.4);
 }
 
+.bg-sky-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 74 110 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[url\(\'\.\/img\/padrao\.svg\'\)\] {
   background-image: url('./img/padrao.svg');
 }
@@ -1497,6 +1502,10 @@ video {
     max-width: 100px;
   }
 
+  .max-sm\:flex-col {
+    flex-direction: column;
+  }
+
   .max-sm\:gap-10 {
     gap: 2.5rem;
   }
@@ -1581,6 +1590,11 @@ video {
 
   .sm\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 
