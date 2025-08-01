@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="src/output.css">
   <title>Forest</title>
 </head>
 
@@ -17,7 +17,7 @@
     </ul>
     <header class="container flex items-center justify-between gap-8 py-8">
       <a href="./">
-        <img src="./img/forest.svg" alt="Forest" />
+        <img src="src/img/forest.svg" alt="Forest" />
       </a>
       <nav id="mobile-menu" class="lg:block hidden items-center z-40 max-lg:fixed max-lg:w-full max-lg:inset-0">
         <div class="fixed lg:hidden inset-0 bg-verde-escuro/40 backdrop-blur-md"></div>
@@ -51,7 +51,7 @@
   <section id="main" class="container relative">
 
     <!-- <img src=" ./img/floresta.jpg" alt="" class="rounded-md"> -->
-    <video id="video" src="img/video_chuva.mp4" autoplay muted loop></video>
+    <video id="video" src="src/img/video_chuva.mp4" autoplay muted loop></video>
     <div>
       <div class="absolute top-[20%] sm:top-[50%]">
         <span class=" sm:bg-preto sm:py-4 sm:pl-6 pr-2 text-xs sm:text-sm text-branco sm:ml-7 font-medium rounded-md sm:rounded-full">Vagas para dezembro abertas
@@ -64,7 +64,7 @@
     <div class="absolute right-0 max-sm:top-0 sm:bottom-6 *:text-branco sm:mr-4">
       <p class="px-3 mb-2 uppercase text-xs sm:text-sm sm:font-medium">recomendado por</p>
       <div class="flex divide-x-2 *:px-3">
-        <img class="w-20 sm:w-32" src="./img/parceiros/wildbeast.svg" alt="">
+        <img class="w-20 sm:w-32" src="src/img/parceiros/wildbeast.svg" alt="">
         <p class="text-sm">Revista Nacional</p>
       </div>
     </div>
@@ -84,15 +84,15 @@
     <div class="grid grid-cols-[2fr_1fr] gap-8 *:relative">
 
       <div class="col-span-full">
-        <img class="h-52 w-full object-cover rounded-lg" src="img/casa1.jpg" alt="">
+        <img class="h-52 w-full object-cover rounded-lg" src="src/img/casa1.jpg" alt="">
         <span class="absolute top-0 right-0 text-sm text-white bg-preto/60 py-2 px-4 m-2 rounded-full">RUBY</span>
       </div>
       <div>
-        <img class="size-full object-cover rounded-lg" src="img/casa2.jpg" alt="">
+        <img class="size-full object-cover rounded-lg" src="src/img/casa2.jpg" alt="">
         <span class="absolute top-0 right-0 text-sm text-white bg-preto/60 py-2 px-4 m-2 rounded-full">EMERALD</span>
       </div>
       <div>
-        <img class="size-full object-cover rounded-lg" src="img/casa3.jpg" alt="">
+        <img class="size-full object-cover rounded-lg" src="src/img/casa3.jpg" alt="">
         <span class="absolute top-0 right-0 text-sm text-white bg-preto/60 py-2 px-4 m-2 rounded-full">SAPHIRE</span>
       </div>
     </div>
@@ -160,9 +160,9 @@
         </div>
       </div>
       <div class="grid grid-cols-2 gap-4 *:*:rounded-lg">
-        <div class=""><img class="size-full" src="img/canoagem.jpg" alt=""></div>
-        <div class="row-span-2"><img class="size-full object-cover" src="img/observacao-noturna.jpg" alt=""></div>
-        <div><img class="size-full" src="img/vida-selvagem.jpg" alt=""></div>
+        <div class=""><img class="size-full" src="src/img/canoagem.jpg" alt=""></div>
+        <div class="row-span-2"><img class="size-full object-cover" src="src/img/observacao-noturna.jpg" alt=""></div>
+        <div><img class="size-full" src="src/img/vida-selvagem.jpg" alt=""></div>
       </div>
     </div>
   </section>
@@ -175,19 +175,19 @@
 
     <div class="flex max-sm:flex-col gap-4 sm:gap-8 *:bg-verde-escuro *:rounded-lg *:p-8">
       <div class="space-y-6 mt-10 flex-1 hover:-translate-y-2 transition-all">
-        <img class="bg-gradient-to-b from-verde-claro2 to-verde rounded-full p-2 size-10" src="img/manha.svg" alt="">
+        <img class="bg-gradient-to-b from-verde-claro2 to-verde rounded-full p-2 size-10" src="src/img/manha.svg" alt="">
         <h2 class="text-branco text-2xl font-semibold">Amanhecer</h2>
         <p class="text-gray-400 text-balance mb-8">Desperte com o canto dos pássaros e participe das nossas caminhadas ao ar livre.</p>
         <span class="text-verde-claro text-lg mt-4 font-semibold inline-block">05:40 - 07:00</span>
       </div>
       <div class="space-y-6 sm:mt-10 flex-1 sm:translate-y-10 sm:hover:translate-y-8 transition-all">
-        <img class="bg-gradient-to-b from-verde-claro2 to-verde rounded-full p-2 size-10" src="img/dia.svg" alt="">
+        <img class="bg-gradient-to-b from-verde-claro2 to-verde rounded-full p-2 size-10" src="src/img/dia.svg" alt="">
         <h2 class="text-branco text-2xl font-semibold">Meio-dia</h2>
         <p class="text-gray-400 text-balance mb-8">Explore nossas trilhas sombreadas e desfrute de um piquenique gourmet na natureza.</p>
         <span class="text-verde-claro text-lg mt-4 font-semibold inline-block">12:00 - 14:00</span>
       </div>
       <div class="space-y-6 sm:mt-10 pb-20 flex-1 hover:-translate-y-2 transition-all">
-        <img class="bg-gradient-to-b from-verde-claro2 to-verde rounded-full p-2 size-10" src="img/noite.svg" alt="">
+        <img class="bg-gradient-to-b from-verde-claro2 to-verde rounded-full p-2 size-10" src="src/img/noite.svg" alt="">
         <h2 class="text-branco text-2xl font-semibold">Anoitecer</h2>
         <p class="text-gray-400 text-balance mb-8">Termine seu dia com nossa sessão de observação de estrelas.</p>
         <span class="text-verde-claro text-lg mt-4 font-semibold inline-block">19:00 - 21:00</span>
@@ -241,11 +241,11 @@
 
   <section id="parcerias" class="container my-16">
     <div class="flex max-sm:items-center max-sm:flex-col justify-center max-sm:divide-y-2 divide-verde-escuro max-sm:*:py-8 sm:gap-16 sm:border-y-2 sm:border-verde-escuro *:w-36 sm:py-10">
-      <img src="img/parceiros/caravan.svg" alt="">
-      <img src="img/parceiros/dogs.svg" alt="">
-      <img src="img/parceiros/wildbeast.svg" alt="">
-      <img src="img/parceiros/lescone.svg" alt="">
-      <img src="img/parceiros/surfbot.svg" alt="">
+      <img src="src/img/parceiros/caravan.svg" alt="">
+      <img src="src/img/parceiros/dogs.svg" alt="">
+      <img src="src/img/parceiros/wildbeast.svg" alt="">
+      <img src="src/img/parceiros/lescone.svg" alt="">
+      <img src="src/img/parceiros/surfbot.svg" alt="">
     </div>
   </section>
 
@@ -268,7 +268,7 @@
       </div>
     </div>
     <div>
-      <img src="img/forest.svg" alt="">
+      <img src="src/img/forest.svg" alt="">
       <p class="mt-4 text-gray-400 text-lg">Conecte-se com a natureza</p>
     </div>
   </section>
@@ -298,7 +298,7 @@
       weekday: "long"
     })
 
-    video.src = random < 25 ? 'img/video_chuva.mp4' : 'img/video_sol.mp4';
+    video.src = random < 25 ? 'src/img/video_chuva.mp4' : 'src/img/video_sol.mp4';
 
     const mobileButton = document.getElementById('mobile-button');
     const mobileMenu = document.getElementById('mobile-menu');
